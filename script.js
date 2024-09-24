@@ -9,7 +9,7 @@ function submit() {
         return;
     }
 
-    if (input.value.toUpperCase() == "SKIBIDI") {
+    if (input.value == "1432597") {
         document.location = "/win.html";
     } else if (wrongAnswers > 3) {
         document.location = "/lose.html";
