@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+    text-shadow: 4px 4px 9px #110000;
+    font-weight: 700;
+    font-size: 100px;
+    font-style: normal;
+    white-space: nowrap;
+    line-height: 0;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+#imageContainer {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url("https://images.theconversation.com/files/296722/original/file-20191011-96208-ur76yz.jpg?ixlib=rb-4.1.0&rect=10%2C293%2C6360%2C3175&q=45&auto=format&w=1356&h=668&fit=crop");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+}
